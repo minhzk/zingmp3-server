@@ -1,0 +1,19 @@
+{
+  "name": "server-zingmp3",
+  "version": "1.0.0",
+  "description": "server-zingmp3",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.1",
+    "nodemon": "^3.0.2",
+    "zingmp3-api-full": "^1.0.14"
+  }
+}
